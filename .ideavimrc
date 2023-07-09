@@ -91,7 +91,7 @@ nnoremap ,e :action SearchEverywhere <CR>
 nmap <leader>h :action PreviousTab<CR>
 nmap <leader>l :action NextTab<CR>
 
-nmap <leader>bd :action CloseEditor<CR>
+nmap<leader>w :action CloseEditor<CR>
 
 " nnoremap <leader>c :action CloseContent <CR>
 
@@ -137,4 +137,4 @@ nnoremap <leader>ss :action SelectInProjectView<CR>
 
 
 " useful
-nnoremap <C-A> gg<S-v>
+nnoremap <C-A> gg<S-v>G

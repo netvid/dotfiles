@@ -117,6 +117,9 @@ vnoremap <leader>gc :action GotoClass <CR>
 nnoremap <leader>gf :action GotoFile <CR>
 vnoremap <leader>gf :action GotoFile <CR>
 nnoremap <leader>ww :action HideAllWindows <CR>
+nnoremap <leader>mt :action MainToolBar <CR>
+nnoremap <leader>sn :action ShowNavBar <CR>
+nnoremap <leader>ot :action ActivateTerminalToolWindow <CR>
 
 nnoremap e :NERDTree <CR>
 

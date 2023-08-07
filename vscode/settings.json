@@ -1,0 +1,129 @@
+{
+// Vim Settings
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.sneak": true,
+  "vim.easymotionMarkerooundColor": "#020202",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before":["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<leader>","l"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+
+    {
+      "before":["<leader>","h"],
+      "commands": ["workbench.action.previousEditor"]
+
+    },
+    {
+      "before":["<leader>","w"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+    {
+      "before": ["<leader>","r","e"],
+      "commands": ["editor.action.startFindReplaceAction"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.files.save"]
+    },
+
+
+
+    /*
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+
+    */
+
+    /*
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    */
+
+
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["testing.runCurrentFile"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    } 
+  ],
+  "vim.leader": "<space>",
+
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    // VS Code new marker @ next occurence
+    "<C-d>": false,
+    // Copy
+    "<C-c>": false,
+    // Cut
+    "<C-x>": false,
+    // Paste
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-y>": false
+  }
+}

@@ -88,10 +88,10 @@ vnoremap U :action FindUsages <CR>
 nnoremap ,e :action SearchEverywhere <CR>
 
 " tabs
-nmap <leader>h :action PreviousTab<CR>
-nmap <leader>l :action NextTab<CR>
+nnoremap J :action PreviousTab<CR>
+nnoremap K :action NextTab<CR>
 
-nmap<leader>w :action CloseEditor<CR>
+nnoremap W :action CloseEditor<CR>
 
 " nnoremap <leader>c :action CloseContent <CR>
 
